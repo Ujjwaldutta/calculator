@@ -1,0 +1,98 @@
+
+        body{
+            margin: 150px;
+            background: #ccc;
+        }
+        .container{
+            width: 450px;
+            height: 480px;
+            display: grid;
+            background: #55acef;
+            padding: 20px 15px 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 3px #2781c7;
+            margin: 0 auto;
+        }
+            .cont{
+                width: 450px;
+                height: 350px;
+            }
+            .row{
+                width: 460px;
+                height: 70px;
+                margin-bottom: 10px;
+            }
+            
+            /* clear-button */
+            .col-c{
+                width: 105px;
+                height: 65px;
+                float: left;
+                margin-right: 10px;
+                border-radius: 10px;
+                text-align: center;
+                cursor: pointer;
+                background: rgb(243, 102, 102);
+                box-shadow: 0 5px 3px red;
+            }
+                .col-c:active{
+                    background-color: red;
+                }
+            
+            /* number-button */
+            .col-n{
+                width: 105px;
+                height: 65px;
+                float: left;
+                margin-right: 10px;
+                border-radius: 10px;
+                text-align: center;
+                cursor: pointer;
+                background: white;
+                box-shadow: 0 5px 3px #13629e;
+            }
+                .col-n:active{
+                    background-color: rgb(216, 211, 205);
+                }
+
+            /* operator-button */
+            .col-o{
+                width: 105px;
+                height: 65px;
+                float: left;
+                margin-right: 10px;
+                border-radius: 10px;
+                text-align: center;
+                cursor: pointer;
+                background: wheat;
+                box-shadow: 0 5px 3px #13629e;
+            }
+                .col-o:active{
+                    background-color: rgb(219, 187, 148);
+                }
+            
+            /* equal-button */
+            .col-e{
+                width: 105px;
+                height: 65px;
+                float: left;
+                margin-right: 10px;
+                border-radius: 10px;
+                text-align: center;
+                cursor: pointer;
+                background: rgb(142, 212, 37);
+                box-shadow: 0 5px 3px green;
+            }
+                .col-e:active{
+                    background-color: rgb(43, 199, 43);
+                }
+            
+            .show{
+                width: 335px;
+                height: 65px;
+                padding-top: 5px;
+                background-color: #13629e;
+                box-shadow: 0 -2px 3px #074270;
+                border-radius: 5px;
+                float: left;
+            }
